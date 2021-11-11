@@ -1,6 +1,6 @@
-## Program to find the maximum of two numbers ##
+# Program to find the maximum of two numbers #
 
-def numMax(n1, n2):
+def maxnum(n1, n2):
     if n1 > n2:
         return n1
     elif n1 == n2:
@@ -9,4 +9,4 @@ def numMax(n1, n2):
         return n2
 
 
-print("The maximum of the two numbers is ", numMax(4, 4))
+print("The maximum of the two numbers is ", maxnum(4, 4))

@@ -12,5 +12,4 @@ nterms = int(input("Enter the number of terms: "))
 if nterms <=0:
     print("Please enter the number of terms more than 1.")
 else:
-    for i in range(nterms):
-        print(fibonacci_rec(i))
+    fibonacci_rec(i)

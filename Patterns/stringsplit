@@ -1,0 +1,23 @@
+string = "geeks for geeks"
+l = string.split(" ")
+
+newWords = [x[::-1] for x in l]
+
+newSentence = " ".join(newWords)
+print(newSentence)
+
+
+string = "Hello Worlds!"
+sorted(string, reverse=True)
+print(string)
+
+
+num = [1,4,2,6,3]
+num.sort(reverse=True)
+print(num)
+
+# set
+py_set = {'e', 'a', 'u', 'o', 'i'}
+print(sorted(py_set, reverse=True))
+
+

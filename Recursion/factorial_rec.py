@@ -1,4 +1,4 @@
-## Program to calculate factorial of a number using Recursion ##
+# Program to calculate factorial of a number using Recursion #
 
 def factorial_rec(num):
     if num < 1:

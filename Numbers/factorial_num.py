@@ -3,7 +3,7 @@ def factorial(num1):
     if num1 <= 1:
         return 1
     else:
-        # fact = fact * factorial(num1-1)
+
         while num1 > 1:
             fact = fact * num1
             num1 -= 1
@@ -11,4 +11,4 @@ def factorial(num1):
     print(str(fact))
 
 
-factorial(6)
+factorial(10)

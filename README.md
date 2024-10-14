@@ -1,2 +1,2 @@
 # pythonProgs
-Beginner Python programs
+Python programs
